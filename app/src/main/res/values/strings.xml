@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Phish App TCSS 450 PolkN</string>
+    <string name="text_login_title">Phish App TCSS 450 PolkN </string>
+    <string name="image_login_logo">Phish App Logo</string>
+
+    <string name="editText_login_email">Email</string>
+    <string name="editText_login_password">Password</string>
+    <string name="button_login_signIn">Sign In</string>
+    <string name="button_login_register">Register</string>
+
+    <string name="editText_register_email">Email</string>
+    <string name="editText_register_password">Password</string>
+    <string name="editText_register_retypePassword">Retype Password</string>
+    <string name="button_register_register">Register</string>
+
+    <string name="text_success_email"></string>
+</resources>
