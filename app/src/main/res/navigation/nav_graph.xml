@@ -3,35 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragment_login">
+    app:startDestination="@id/nav_fragment_login">
 
     <fragment
-        android:id="@+id/fragment_login"
+        android:id="@+id/nav_fragment_login"
         android:name="edu.uw.tcss450.phishapp.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
-            app:destination="@id/fragment_register" />
+            app:destination="@id/nav_fragment_register" />
         <action
-            android:id="@+id/action_loginFragment_to_successFragment"
-            app:destination="@id/fragment_success" />
+            android:id="@+id/action_fragment_login_to_homeActivity"
+            app:destination="@id/nav_activity_home" />
     </fragment>
     <fragment
-        android:id="@+id/fragment_register"
+        android:id="@+id/nav_fragment_register"
         android:name="edu.uw.tcss450.phishapp.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
-            android:id="@+id/action_registerFragment_to_successFragment"
-            app:destination="@id/fragment_success" />
-        <action
             android:id="@+id/action_registerFragment_to_loginFragment"
-            app:destination="@id/fragment_login" />
+            app:destination="@id/nav_fragment_login" />
     </fragment>
     <fragment
         android:id="@+id/fragment_success"
         android:name="edu.uw.tcss450.phishapp.SuccessFragment"
-        android:label="fragment_success"
+        android:label="Login Success"
         tools:layout="@layout/fragment_success" />
+    <activity
+        android:id="@+id/nav_activity_home"
+        android:name="edu.uw.tcss450.phishapp.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
 </navigation>

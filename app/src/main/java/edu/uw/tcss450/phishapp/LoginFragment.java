@@ -45,7 +45,7 @@ public class LoginFragment extends Fragment {
                 .setOnClickListener(b -> {
                     NavController nc = Navigation.findNavController(getView());
 
-                    if (nc.getCurrentDestination().getId() != R.id.fragment_login) {
+                    if (nc.getCurrentDestination().getId() != R.id.nav_fragment_login) {
                         nc.navigateUp();
                     }
                     nc.navigate(R.id.action_loginFragment_to_registerFragment);
@@ -65,7 +65,7 @@ public class LoginFragment extends Fragment {
                             .build());
 
             Navigation.findNavController(theButton)
-                    .navigate(R.id.action_loginFragment_to_successFragment, args);
+                    .navigate(R.id.action_fragment_login_to_homeActivity, args);
         }
     }
 

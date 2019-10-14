@@ -5,13 +5,35 @@
 
     <string name="editText_login_email">Email</string>
     <string name="editText_login_password">Password</string>
+    <string name="editText_login_emailtext">nadia.polk1@gmail.com</string>
+    <string name="editText_login_passwordtext">ragdollnads</string>
     <string name="button_login_signIn">Sign In</string>
     <string name="button_login_register">Register</string>
 
     <string name="editText_register_email">Email</string>
     <string name="editText_register_password">Password</string>
     <string name="editText_register_retypePassword">Retype Password</string>
+
+    <string name="editText_register_emailtext">nadia.polk1@gmail.com</string>
+    <string name="editText_register_passwordtext">ragdollnads</string>
+    <string name="editText_register_retypePasswordtext">ragdollnads</string>
     <string name="button_register_register">Register</string>
 
     <string name="text_success_email"></string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Phish App</string>
+    <string name="nav_header_subtitle">TCSS 450 Labs</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_blog">Blog Posts</string>
+
+    <string name="button_blogPost_fullPost">Full Post</string>
+    <string name="key_blogPost_view">Key</string>
+
 </resources>

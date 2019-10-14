@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_register"
+    android:id="@+id/nav_fragment_register"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterFragment">
@@ -67,6 +67,7 @@
         android:ems="10"
         android:hint="@string/editText_register_retypePassword"
         android:inputType="textPassword"
+        android:text="@string/editText_register_retypePasswordtext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,6 +83,7 @@
         android:ems="10"
         android:hint="@string/editText_register_email"
         android:inputType="textEmailAddress"
+        android:text="@string/editText_register_emailtext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,6 +99,7 @@
         android:ems="10"
         android:hint="@string/editText_register_password"
         android:inputType="textPassword"
+        android:text="@string/editText_register_passwordtext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText_register_email" />

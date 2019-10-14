@@ -3,28 +3,23 @@
   <component name="navEditor-manualLayoutAlgorithm2">
     <option name="myPositions">
       <map>
-        <entry key="nav_graph.xml">
+        <entry key="mobile_navigation.xml">
           <value>
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="fragment_login">
+                  <entry key="nav_blogFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
-                            <option name="y" value="63" />
+                            <option name="x" value="-517" />
+                            <option name="y" value="-55" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_loginFragment_to_registerFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="action_loginFragment_to_successFragment">
+                            <entry key="action_nav_blogFragment_to_blogPostFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -34,13 +29,97 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="fragment_register">
+                  <entry key="nav_blogPostFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-227" />
+                            <option name="y" value="-52" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_successFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-744" />
+                            <option name="y" value="-55" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </LayoutPositions>
+          </value>
+        </entry>
+        <entry key="nav_graph.xml">
+          <value>
+            <LayoutPositions>
+              <option name="myPositions">
+                <map>
+                  <entry key="fragment_success">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
                             <option name="x" value="12" />
-                            <option name="y" value="20" />
+                            <option name="y" value="12" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_activity_home">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="500" />
+                            <option name="y" value="368" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_fragment_login">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="256" />
+                            <option name="y" value="368" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fragment_login_to_homeActivity">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_loginFragment_to_registerFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="nav_fragment_register">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="368" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -50,24 +129,7 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
-                            <entry key="action_registerFragment_to_successFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
                           </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="fragment_success">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="500" />
-                            <option name="y" value="20" />
-                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_successFragment">
+
+    <fragment
+        android:id="@+id/nav_successFragment"
+        android:name="edu.uw.tcss450.phishapp.SuccessFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_success" />
+    <fragment
+        android:id="@+id/nav_blogFragment"
+        android:name="edu.uw.tcss450.phishapp.BlogFragment"
+        android:label="Blog Posts"
+        tools:layout="@layout/fragment_blog_list" >
+        <action
+            android:id="@+id/action_nav_blogFragment_to_blogPostFragment"
+            app:destination="@id/nav_blogPostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_blogPostFragment"
+        android:name="edu.uw.tcss450.phishapp.BlogPostFragment"
+        android:label="Blog Post"
+        tools:layout="@layout/fragment_blog_post" />
+</navigation>

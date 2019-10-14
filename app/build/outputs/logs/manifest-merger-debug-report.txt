@@ -1,20 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e0747f5f3dc9368a46f7fdc306c377d7\jetified-navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\dfb17c32c9e1bced7bb89f3e844a7607\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\4f3f57a83cb26d1dd8ca69501722966b\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99839343cfb353ec06147cc6109cf9b2\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\d901b72938cabd308cff3bcfb8fc920f\navigation-fragment-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\fef0d3e0cf442fb5cdebaa3af059bc1d\navigation-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\53b80eb10e19cd993179f750793a192b\navigation-common-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\25bfa9abbe57efa7109f3ed8175af34b\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\91a2e0650e476867729e44e6c1acc534\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99839343cfb353ec06147cc6109cf9b2\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\d2d4a9c8ed9de951b346431f16b4376f\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
@@ -32,44 +33,50 @@ MERGED from [androidx.activity:activity:1.0.0] C:\Users\Nadia\.gradle\caches\tra
 MERGED from [androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\fb37b7f790edcc9d7fe6d3e5314b8c56\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\56ac9380cb774c810e6009b415c27771\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\bd0a62944459a1adc1265a78d0c60d40\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\03f4a17b2aa275cfc7a94c5e6df20a9c\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7fd288a66b1b8e0d6669d784ba4e7ede\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\35d6382087ac1999db47004e3bf24934\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\8893b90c6f2a61edd1acfa898cb4cde1\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\2d1f640c1b4beb33089ff5c91bbd7f31\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\4f3f57a83cb26d1dd8ca69501722966b\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\4f3f57a83cb26d1dd8ca69501722966b\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -84,20 +91,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Na
 		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#edu.uw.tcss450.phishapp.HomeActivity
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:12:9-15:68
+	android:label
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:14:13-56
+	android:theme
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:13:13-41
 activity#edu.uw.tcss450.phishapp.MainActivity
-ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
@@ -112,6 +127,10 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Nadia\.g
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1d93c655cdcaa19a3180f48e63f30b3d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\4f3f57a83cb26d1dd8ca69501722966b\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\4f3f57a83cb26d1dd8ca69501722966b\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99839343cfb353ec06147cc6109cf9b2\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99839343cfb353ec06147cc6109cf9b2\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\d901b72938cabd308cff3bcfb8fc920f\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\d901b72938cabd308cff3bcfb8fc920f\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\fef0d3e0cf442fb5cdebaa3af059bc1d\navigation-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
@@ -122,8 +141,6 @@ MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Nadia\.gradle\caches\tra
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\25bfa9abbe57efa7109f3ed8175af34b\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\91a2e0650e476867729e44e6c1acc534\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\91a2e0650e476867729e44e6c1acc534\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99839343cfb353ec06147cc6109cf9b2\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99839343cfb353ec06147cc6109cf9b2\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\67e3a22614326cadf216274f01d6d423\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\984e9edaa0792ad5f44429be517dd8ee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -158,6 +175,24 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Na
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\9a29ee90fd211f611caccd9d338a3e44\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\fb37b7f790edcc9d7fe6d3e5314b8c56\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\fb37b7f790edcc9d7fe6d3e5314b8c56\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\56ac9380cb774c810e6009b415c27771\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\56ac9380cb774c810e6009b415c27771\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\bd0a62944459a1adc1265a78d0c60d40\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\bd0a62944459a1adc1265a78d0c60d40\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\03f4a17b2aa275cfc7a94c5e6df20a9c\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\03f4a17b2aa275cfc7a94c5e6df20a9c\lifecycle-livedata-core-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7fd288a66b1b8e0d6669d784ba4e7ede\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7fd288a66b1b8e0d6669d784ba4e7ede\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\8506ddbc1ed30380944ad7f0369e4760\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\35d6382087ac1999db47004e3bf24934\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -166,20 +201,6 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Nadia\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\8893b90c6f2a61edd1acfa898cb4cde1\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\2d1f640c1b4beb33089ff5c91bbd7f31\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\2d1f640c1b4beb33089ff5c91bbd7f31\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c034f7088c57e18a85dafc68b942945f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e7284bace20bec096294b5474e153fbf\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\c073c929da6ad4e112abaac7d3212747\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e72949b043b8df7a6068dab5e7cd21f2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -190,3 +211,13 @@ INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\Android
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
