@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\5db5ccd571846797c828736ab35d3548\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:7:9-43
@@ -52,15 +52,15 @@
 31        </activity>
 32
 33        <provider
-33-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+33-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-34-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+34-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
 35            android:authorities="edu.uw.tcss450.phishapp.lifecycle-process"
-35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
 36            android:exported="false"
-36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
 37            android:multiprocess="true" />
-37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
 38    </application>
 39
 40</manifest>

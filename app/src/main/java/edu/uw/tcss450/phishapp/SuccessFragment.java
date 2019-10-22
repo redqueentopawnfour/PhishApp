@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,10 +27,10 @@ public class SuccessFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        if (getArguments() != null) {
+     /*   if (getArguments() != null) {
             Credentials credentials = (Credentials) getArguments().getSerializable("Key");
             updateContent(credentials);
-        }
+        }*/
     }
 
     @Override
@@ -41,6 +43,13 @@ public class SuccessFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        HomeActivityArgs args = HomeActivityArgs.fromBundle(getArguments());
+        Credentials credentials = args.getCredentials();
+        ((TextView) getActivity().findViewById(R.id.text_success_email)).
+                setText(credentials.getEmail());
+        String jwt = args.getJwt();
+        Log.d("JWT", jwt);
     }
 
     public void updateContent(Credentials credentials) {

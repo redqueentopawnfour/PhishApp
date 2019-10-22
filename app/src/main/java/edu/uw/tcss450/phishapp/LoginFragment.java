@@ -66,6 +66,13 @@ public class LoginFragment extends Fragment {
 
             Navigation.findNavController(theButton)
                     .navigate(R.id.action_fragment_login_to_homeActivity, args);
+            LoginFragmentDirections.ActionFragmentLoginToHomeActivity homeActivity =
+                    LoginFragmentDirections.actionFragmentLoginToHomeActivity(new Credentials.Builder(
+                            emailEdit.getText().toString(),
+                            passwordEdit.getText().toString())
+                            .build());
+            homeActivity.setJwt("Will get a token from the WS later");
+            Navigation.findNavController(getView()).navigate(homeActivity);
         }
     }
 

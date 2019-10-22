@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\dfb17c32c9e1bced7bb89f3e844a7607\\appcompat-1.0.2\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e0747f5f3dc9368a46f7fdc306c377d7\\jetified-navigation-ui-2.1.0\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\c1f9754cbd039eaab2f155a9a38b85fd\\jetified-navigation-ui-2.1.0\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\7f6c41cc2a14c0fbaa8d0166c17dc544\\core-1.1.0\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\5db5ccd571846797c828736ab35d3548\\core-1.1.0\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

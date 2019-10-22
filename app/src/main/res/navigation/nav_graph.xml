@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/nav_fragment_login">
+    app:startDestination="@+id/nav_fragment_login">
 
     <fragment
         android:id="@+id/nav_fragment_login"
         android:name="edu.uw.tcss450.phishapp.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/nav_fragment_register" />
@@ -21,19 +21,22 @@
         android:id="@+id/nav_fragment_register"
         android:name="edu.uw.tcss450.phishapp.RegisterFragment"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" >
+        tools:layout="@layout/fragment_register">
         <action
             android:id="@+id/action_registerFragment_to_loginFragment"
             app:destination="@id/nav_fragment_login" />
     </fragment>
-    <fragment
-        android:id="@+id/fragment_success"
-        android:name="edu.uw.tcss450.phishapp.SuccessFragment"
-        android:label="Login Success"
-        tools:layout="@layout/fragment_success" />
     <activity
         android:id="@+id/nav_activity_home"
         android:name="edu.uw.tcss450.phishapp.HomeActivity"
         android:label="activity_home"
-        tools:layout="@layout/activity_home" />
+        tools:layout="@layout/app_bar_home">
+        <argument
+            android:name="credentials"
+            app:argType="edu.uw.tcss450.phishapp.model.Credentials" />
+        <argument
+            android:name="jwt"
+            android:defaultValue='""'
+            app:argType="string" />
+    </activity>
 </navigation>

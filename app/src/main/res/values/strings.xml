@@ -15,8 +15,8 @@
     <string name="editText_register_retypePassword">Retype Password</string>
 
     <string name="editText_register_emailtext">nadia.polk1@gmail.com</string>
-    <string name="editText_register_passwordtext">ragdollnads</string>
-    <string name="editText_register_retypePasswordtext">ragdollnads</string>
+    <string name="editText_register_passwordtext">testpass</string>
+    <string name="editText_register_retypePasswordtext">testpass</string>
     <string name="button_register_register">Register</string>
 
     <string name="text_success_email"></string>
