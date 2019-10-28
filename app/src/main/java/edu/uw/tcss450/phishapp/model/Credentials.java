@@ -1,5 +1,6 @@
 package edu.uw.tcss450.phishapp.model;
 
+import android.text.Editable;
 import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,9 +14,6 @@ import java.io.Serializable;
  *
  * @author Charles Bryan
  * @version 8 January 2019
- *
- * @author Nadia S Polk
- * @version October 5 2019
  */
 public class Credentials implements Serializable {
     private static final long serialVersionUID = -1634677417576883013L;
@@ -30,7 +28,6 @@ public class Credentials implements Serializable {
      * Helper class for building Credentials.
      *
      * @author Charles Bryan
-     * @author Nadia Polk
      */
     public static class Builder {
 

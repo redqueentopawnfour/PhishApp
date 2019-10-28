@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Phish App TCSS 450 PolkN</string>
-    <string name="text_login_title">Phish App TCSS 450 PolkN </string>
+    <string name="text_login_title">Phish App Login</string>
     <string name="image_login_logo">Phish App Logo</string>
+    <string name="text_register_title">Phish App Register</string>
 
     <string name="editText_login_email">Email</string>
     <string name="editText_login_password">Password</string>
@@ -13,6 +14,10 @@
     <string name="editText_register_email">Email</string>
     <string name="editText_register_password">Password</string>
     <string name="editText_register_retypePassword">Retype Password</string>
+    <string name="editText_register_firstName">First Name</string>
+    <string name="editText_register_lastName">Last Name</string>
+    <string name="editText_register_username">Username</string>
+
 
     <string name="editText_register_emailtext">nadia.polk1@gmail.com</string>
     <string name="editText_register_passwordtext">testpass</string>
@@ -32,8 +37,12 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_blog">Blog Posts</string>
+    <string name="menu_setList">Set List</string>
 
     <string name="button_blogPost_fullPost">Full Post</string>
     <string name="key_blogPost_view">Key</string>
+
+    <string name="key_setList_view">Key</string>
+    <string name="button_setListPost_fullSetList">Full Set List</string>
 
 </resources>

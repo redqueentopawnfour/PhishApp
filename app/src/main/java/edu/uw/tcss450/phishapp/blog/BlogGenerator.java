@@ -3,11 +3,13 @@ package edu.uw.tcss450.phishapp.blog;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.uw.tcss450.phishapp.model.BlogPost;
+
+
 public final class BlogGenerator {
 
     public static final List<BlogPost> BLOGS;
     public static final int COUNT = 20;
-
 
     static {
         BLOGS = new ArrayList<>();
@@ -21,8 +23,5 @@ public final class BlogGenerator {
         }
     }
 
-
     private BlogGenerator() { }
-
-
 }

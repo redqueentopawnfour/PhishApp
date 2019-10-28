@@ -13,8 +13,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import edu.uw.tcss450.phishapp.blog.BlogGenerator;
-import edu.uw.tcss450.phishapp.blog.BlogPost;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import edu.uw.tcss450.phishapp.model.BlogPost;
 
 /**
  * A fragment representing a list of Items.
@@ -29,12 +32,22 @@ public class BlogFragment extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     private OnListFragmentInteractionListener mListener;
+    private List<BlogPost> mBlogs;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
     public BlogFragment() {
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        BlogFragmentArgs args = BlogFragmentArgs.fromBundle(getArguments());
+     /*   mBlogs = new ArrayList<>(Arrays.asList(args.getBlogs()));*/
+        mBlogs = new ArrayList<>(Arrays.asList(args.getBlog()));
     }
 
     // TODO: Customize parameter initialization
@@ -45,15 +58,6 @@ public class BlogFragment extends Fragment {
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
         return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        if (getArguments() != null) {
-            mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
-        }
     }
 
     @Override
@@ -70,7 +74,7 @@ public class BlogFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyBlogRecyclerViewAdapter(BlogGenerator.BLOGS,  this::displayBlogPost));
+            recyclerView.setAdapter(new MyBlogRecyclerViewAdapter(mBlogs, this::displayBlogPost));
         }
         return view;
     }

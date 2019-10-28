@@ -3,14 +3,13 @@ package edu.uw.tcss450.phishapp;
 import androidx.core.text.HtmlCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import edu.uw.tcss450.phishapp.BlogFragment.OnListFragmentInteractionListener;
-import edu.uw.tcss450.phishapp.blog.BlogPost;
+import edu.uw.tcss450.phishapp.model.BlogPost;
 
 import java.util.List;
 

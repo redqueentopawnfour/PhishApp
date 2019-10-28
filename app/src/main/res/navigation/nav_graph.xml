@@ -15,16 +15,19 @@
             app:destination="@id/nav_fragment_register" />
         <action
             android:id="@+id/action_fragment_login_to_homeActivity"
-            app:destination="@id/nav_activity_home" />
+            app:destination="@+id/nav_activity_home" />
     </fragment>
     <fragment
         android:id="@+id/nav_fragment_register"
         android:name="edu.uw.tcss450.phishapp.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register">
-        <action
+       <!-- <action
             android:id="@+id/action_registerFragment_to_loginFragment"
-            app:destination="@id/nav_fragment_login" />
+            app:destination="@id/nav_fragment_login" />-->
+        <action
+            android:id="@+id/action_fragment_register_to_homeActivity"
+            app:destination="@id/nav_activity_home" />
     </fragment>
     <activity
         android:id="@+id/nav_activity_home"

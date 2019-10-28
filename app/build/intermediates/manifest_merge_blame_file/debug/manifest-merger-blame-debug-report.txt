@@ -10,57 +10,61 @@
 9        android:targetSdkVersion="29" />
 9-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:5:5-23:19
-12        android:allowBackup="true"
-12-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\5db5ccd571846797c828736ab35d3548\core-1.1.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity
-21-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:12:9-15:68
-22            android:name="edu.uw.tcss450.phishapp.HomeActivity"
-22-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:13:13-41
-23            android:label="@string/title_activity_home"
-23-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:14:13-56
-24            android:theme="@style/AppTheme.NoActionBar" />
-24-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:15:13-56
-25        <activity android:name="edu.uw.tcss450.phishapp.MainActivity" >
-25-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:9-22:20
-25-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:19-47
-26            <intent-filter>
-26-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:18:17-69
-27-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:20:17-77
-29-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <provider
-33-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-34-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-35            android:authorities="edu.uw.tcss450.phishapp.lifecycle-process"
-35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-36            android:exported="false"
-36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-37            android:multiprocess="true" />
-37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-38    </application>
-39
-40</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:5:5-23:19
+14        android:allowBackup="true"
+14-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\5db5ccd571846797c828736ab35d3548\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity
+23-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:12:9-15:68
+24            android:name="edu.uw.tcss450.phishapp.HomeActivity"
+24-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:13:13-41
+25            android:label="@string/title_activity_home"
+25-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:14:13-56
+26            android:theme="@style/AppTheme.NoActionBar" />
+26-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:15:13-56
+27        <activity android:name="edu.uw.tcss450.phishapp.MainActivity" >
+27-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:9-22:20
+27-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:16:19-47
+28            <intent-filter>
+28-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:17:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:18:17-69
+29-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:20:17-77
+31-->C:\Users\Nadia\AndroidStudioProjects\PhishApp\app\src\main\AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+37            android:authorities="edu.uw.tcss450.phishapp.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Nadia\.gradle\caches\transforms-2\files-2.1\99d0ce157e8b1cb60af444e5cf7c6b63\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+40    </application>
+41
+42</manifest>

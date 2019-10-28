@@ -18,10 +18,32 @@
         <action
             android:id="@+id/action_nav_blogFragment_to_blogPostFragment"
             app:destination="@id/nav_blogPostFragment" />
+        <argument
+            android:name="blog"
+            app:argType="edu.uw.tcss450.phishapp.model.BlogPost[]" />
     </fragment>
     <fragment
         android:id="@+id/nav_blogPostFragment"
         android:name="edu.uw.tcss450.phishapp.BlogPostFragment"
         android:label="Blog Post"
         tools:layout="@layout/fragment_blog_post" />
+    <action android:id="@+id/action_global_nav_blogFragment" app:destination="@id/nav_blogFragment" />
+    <fragment
+        android:id="@+id/nav_setListFragment"
+        android:name="edu.uw.tcss450.phishapp.SetListFragment"
+        android:label="Set List"
+        tools:layout="@layout/fragment_set_list" >
+        <argument
+            android:name="setlist"
+            app:argType="edu.uw.tcss450.phishapp.model.SetListPost[]" />
+        <action
+            android:id="@+id/action_nav_setListFragment_to_setListPostFragment"
+            app:destination="@id/nav_setListPostFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_nav_setListFragment" app:destination="@id/nav_setListFragment" />
+    <fragment
+        android:id="@+id/nav_setListPostFragment"
+        android:name="edu.uw.tcss450.phishapp.SetListPostFragment"
+        android:label="Set"
+        tools:layout="@layout/fragment_set_list_post" />
 </navigation>

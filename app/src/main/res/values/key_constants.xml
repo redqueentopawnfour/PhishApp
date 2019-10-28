@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="keys_shared_prefs">edu.uw.tcss450.challengeapp.PREFS</string>
+    <string name="keys_prefs_username">username</string>
+    <string name="keys_prefs_stay_logged_in">loggedIn</string>
+
+    <string name="keys_json_login_success">success</string>
+    <string name="keys_json_login_jwt">token</string>
+
+    <string name="keys_json_register_success">success</string>
+    <string name="keys_json_register_jwt">token</string>
+
+
+    <string name="keys_json_blogs_response">response</string>
+    <string name="keys_json_blogs_data">data</string>
+    <string name="keys_json_blogs_pubdate">pubdate</string>
+    <string name="keys_json_blogs_title">title</string>
+    <string name="keys_json_blogs_teaser">teaser</string>
+    <string name="keys_json_blogs_url">url</string>
+
+    <string name="keys_json_setlists_response">response</string>
+    <string name="keys_json_setlists_count">count</string>
+    <string name="keys_json_setlists_data">data</string>
+    <string name="keys_json_setlists_showid">id</string>
+    <string name="keys_json_setlists_showdate">showdate</string>
+    <string name="keys_json_setlists_short_date">short_date</string>
+    <string name="keys_json_setlists_long_date">long_date</string>
+    <string name="keys_json_setlists_relative_date">relative_date</string>
+    <string name="keys_json_setlists_url">url</string>
+    <string name="keys_json_setlists_gapchart">gapchart</string>
+    <string name="keys_json_setlists_artist">artist</string>
+    <string name="keys_json_setlists_artistid">artistid</string>
+    <string name="keys_json_setlists_venueid">venueid</string>
+    <string name="keys_json_setlists_venue">venue</string>
+    <string name="keys_json_setlists_location">location</string>
+    <string name="keys_json_setlists_setlistdata">setlistdata</string>
+    <string name="keys_json_setlists_setlistnotes">setlistnotes</string>
+    <string name="keys_json_setlists_rating">rating</string>
+</resources>

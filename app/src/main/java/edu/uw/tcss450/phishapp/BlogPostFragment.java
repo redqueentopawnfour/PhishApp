@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import edu.uw.tcss450.phishapp.blog.BlogPost;
+import edu.uw.tcss450.phishapp.model.BlogPost;
 
 
 /**
