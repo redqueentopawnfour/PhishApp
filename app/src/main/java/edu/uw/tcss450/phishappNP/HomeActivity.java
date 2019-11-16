@@ -152,10 +152,16 @@ public class HomeActivity extends AppCompatActivity {
                 // We've clicked on chat, reset the hamburger icon color
                 ((Toolbar) findViewById(R.id.toolbar)).getNavigationIcon().setColorFilter(mDefault);
 
-                Log.d("tag", mChatMessage.getMessage());
+                MobileNavigationDirections.ActionGlobalNavChatFragment directions;
+                if (mChatMessage != null) {
+                    Log.d("tag", mChatMessage.getMessage());
+                    directions =
+                            ChatFragmentDirections.actionGlobalNavChatFragment().setEmail(mCredentials.getEmail()).setJwt(mJwToken).setMessage(mChatMessage);
+                } else {
+                    directions =
+                            ChatFragmentDirections.actionGlobalNavChatFragment().setEmail(mCredentials.getEmail()).setJwt(mJwToken);
+                }
 
-              MobileNavigationDirections.ActionGlobalNavChatFragment directions =
-                      ChatFragmentDirections.actionGlobalNavChatFragment().setEmail(mCredentials.getEmail()).setJwt(mJwToken).setMessage(mChatMessage);
 
               Navigation.findNavController(this, R.id.nav_host_fragment).navigate(directions);
                 break;
