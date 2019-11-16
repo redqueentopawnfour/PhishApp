@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "edu.uw.tcss450.phishapp"
+        applicationId "edu.uw.tcss450.phishappNP"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
@@ -24,6 +24,7 @@ android {
 }
 
 dependencies {
+    implementation 'me.pushy:sdk:1.0.53'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

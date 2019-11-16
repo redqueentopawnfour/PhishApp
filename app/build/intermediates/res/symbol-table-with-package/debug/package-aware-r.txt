@@ -1,4 +1,4 @@
-edu.uw.tcss450.phishapp
+edu.uw.tcss450.phishappNP
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1043,6 +1043,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_chat_notification
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_blog
@@ -1056,6 +1057,7 @@ drawable ic_menu_slideshow
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_send_black_24dp
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1129,9 +1131,11 @@ id action_divider
 id action_fragment_login_to_homeActivity
 id action_fragment_register_to_homeActivity
 id action_global_nav_blogFragment
+id action_global_nav_chatFragment
 id action_global_nav_setListFragment
 id action_image
 id action_loginFragment_to_registerFragment
+id action_logout
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -1139,7 +1143,6 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_nav_blogFragment_to_blogPostFragment
 id action_nav_setListFragment_to_setListPostFragment
-id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1155,6 +1158,7 @@ id blocking
 id bottom
 id buttonPanel
 id button_blogPost_fullPost
+id button_chat_send
 id button_login_register
 id button_login_signIn
 id button_register_register
@@ -1195,6 +1199,7 @@ id editText_register_lastName
 id editText_register_password
 id editText_register_retypePassword
 id editText_register_username
+id edit_chat_message_input
 id edit_query
 id end
 id end_padder
@@ -1210,6 +1215,7 @@ id filled
 id fixed
 id forever
 id fragment_success
+id frameLayout
 id frameLayout4
 id frame_main_container
 id ghost_view
@@ -1253,6 +1259,7 @@ id multiply
 id nav_activity_home
 id nav_blogFragment
 id nav_blogPostFragment
+id nav_chatFragment
 id nav_controller_view_tag
 id nav_fragment_login
 id nav_fragment_register
@@ -1352,6 +1359,7 @@ id textView_setListPost_longDate
 id textView_setListPost_setListData
 id textView_setListPost_setListNotes
 id textView_setListPost_venue
+id text_chat_message_display
 id text_input_password_toggle
 id text_login_title
 id text_success_email
@@ -1451,6 +1459,7 @@ layout design_text_input_password_icon
 layout fragment_blog
 layout fragment_blog_list
 layout fragment_blog_post
+layout fragment_chat
 layout fragment_login
 layout fragment_register
 layout fragment_set
@@ -1524,6 +1533,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_logout
 string action_settings
 string app_name
 string appbar_scrolling_view_behavior
@@ -1552,12 +1562,16 @@ string ep_base_url
 string ep_blog
 string ep_get
 string ep_login
+string ep_messaging_base
+string ep_messaging_send
 string ep_phish
+string ep_pushy
 string ep_recent
 string ep_register
 string ep_setlists
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string image_login_logo
 string key_blogPost_view
@@ -1590,10 +1604,13 @@ string keys_json_setlists_showid
 string keys_json_setlists_url
 string keys_json_setlists_venue
 string keys_json_setlists_venueid
+string keys_prefs_email
+string keys_prefs_password
 string keys_prefs_stay_logged_in
 string keys_prefs_username
 string keys_shared_prefs
 string menu_blog
+string menu_globalChat
 string menu_home
 string menu_setList
 string mtrl_chip_close_icon_content_description

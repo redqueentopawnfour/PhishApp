@@ -112,12 +112,12 @@
         "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\layout\\fragment_set_list_post.xml"
     },
     {
-        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
-        "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\027acb686ed7ff3a01c9d855e370fe86\\material-1.0.0\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_set.xml.flat",
         "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\layout\\fragment_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
+        "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\027acb686ed7ff3a01c9d855e370fe86\\material-1.0.0\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -428,6 +428,10 @@
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\5db5ccd571846797c828736ab35d3548\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
@@ -542,10 +546,6 @@
     {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customborder.xml.flat",
-        "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\drawable\\customborder.xml"
     },
     {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1408,6 +1408,10 @@
         "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_customborder.xml.flat",
+        "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\drawable-v24\\customborder.xml"
+    },
+    {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -1868,6 +1872,10 @@
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_black_24dp.xml.flat",
+        "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\drawable\\ic_send_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -1938,6 +1946,10 @@
     {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Nadia\\.gradle\\caches\\transforms-2\\files-2.1\\e266247a448809aa943c8e15150561ee\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat_notification.xml.flat",
+        "source": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\src\\main\\res\\drawable\\ic_chat_notification.xml"
     },
     {
         "merged": "C:\\Users\\Nadia\\AndroidStudioProjects\\PhishApp\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",

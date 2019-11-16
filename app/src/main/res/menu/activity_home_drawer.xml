@@ -17,6 +17,11 @@
             android:id="@+id/nav_setListFragment"
             android:icon="@drawable/ic_menu_blog"
             android:title="@string/menu_setList" />
+
+        <item
+            android:id="@+id/nav_chatFragment"
+            android:icon="@drawable/ic_chat_notification"
+            android:title="@string/menu_globalChat" />
       <!--  <item
             android:id="@+id/nav_blogposts"
             android:icon="@drawable/ic_menu_manage"
